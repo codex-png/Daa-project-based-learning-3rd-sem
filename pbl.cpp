@@ -19,6 +19,15 @@
      proctor --samples    writes sample dataset CSV files for all scenarios
      proctor --report     prints complexity report and P/NP reduction
 
+ VERSION CONTROL (publish to GitHub):
+     git init
+     git add proctor_analyzer.cpp Makefile .gitignore data/ docs/ scripts/
+     git commit -m "DAA Project 26: Online Examination Proctoring Event Analyzer"
+     git remote add origin <your-empty-github-repo-url>
+     git push -u origin main
+     git tag -a v1.0 -m "Demo/viva submission 21 Nov 2026"
+     git push origin v1.0
+
  ETHICS: every score produced here is an INDICATOR for HUMAN REVIEW.
  It is never proof that a candidate cheated.
 
